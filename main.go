@@ -316,6 +316,7 @@ func licenseHeader(path string, tmpl *template.Template, data licenseData) ([]by
 		".php",
 		".proto",
 		".rs",
+		".zig",
 		".swift",
 		".v", ".sv":
 		lic, err = executeTemplate(tmpl, data, "", "// ", "")
